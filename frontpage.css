@@ -1,0 +1,235 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+#main
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#head
+{
+    background-image: url('coverpage.png');
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    height: 200px;
+    font-size: 60px;
+    color: rgb(65, 54, 221);
+}
+#name
+{
+    background-color: rgb(255, 251, 245);
+    width: 400px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgba(54, 54, 54, 0.4);
+   
+}
+#nav
+{
+    /* position: relative;
+    bottom: 10px;
+    z-index: 2; */
+    /* margin-top: 5px; */
+    font-size: 20px;
+    /* border:1px solid blue; */
+    border-radius: 10px;
+    display: flex;
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 8px 3px;;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 50px;
+    align-content: center;
+    background-color: rgba(71, 71, 71, 0.856);
+}
+#nav > ul
+{
+    display: inline-block;
+}
+/* #menubar > ul
+{
+    display: inline-block;
+} */
+#btn1
+{
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    color: blanchedalmond;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+#btn1:hover
+{
+    box-shadow: rgb(243, 226, 160) 0px 0px 2px 2px;
+    color: rgb(248, 174, 63);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+#nav > ul > li
+{
+    display: inline;
+    list-style: none;
+    margin-right: 120px;
+}
+#menubar > li
+{
+    display: inline-block;
+    list-style: none;
+}
+#nav > ul > li > a
+{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+#nav > ul > li > a:hover
+{
+    color: rgb(248, 174, 63);
+    text-decoration: underline;
+
+}
+#menubar>li>a
+{   
+    text-decoration: none;
+    color: blanchedalmond;
+}
+#menubar>li>a:hover
+{   
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(248, 174, 63);
+}
+#menubar
+{
+    border-radius: 10px;
+    display: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 0.8px;
+    z-index: 2;
+    background-color: rgba(71, 71, 71, 0.945);
+    height: 600px;
+}
+#searchbox
+{
+    border: none;
+    border-bottom: 1px dotted rgb(117, 79, 79);
+    background-color: rgba(223, 215, 215, 0.452);
+    
+}
+#nav > form > input[type='submit']
+{
+    height: 25px;
+    width: 75px;
+    border: none;
+    background: none;
+    
+}
+#nav > form > input[type='submit']:hover
+{
+    border: 1px dotted black;
+    border-radius: 10px;
+    /* padding: 1px; */
+    cursor: pointer;
+    background: grey;
+    box-shadow: rgba(54, 53, 53, 0.801);
+    
+}
+#objects
+{
+    background-image: url('backgrnd1.png');
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 450px;
+    margin: 5px;
+    padding: 10px;
+    background-repeat: no-repeat;
+    /* border: 1px solid black; */
+    align-content: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.objs
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 300px;
+    /* border:2px solid black; */
+    width: 400px;
+    box-shadow: gray 2px 2px 1px 1px;
+}
+.objs:hover
+{
+    transform: scale(1.1);
+    filter: blur(1px);
+  -webkit-filter: blur(1px);
+}
+#obj1
+{
+    background-image: url('1.png');
+}
+#obj2
+{
+    background-image: url('2.png');
+}
+#obj3
+{
+    background-image: url('3.png');
+}
+.anchr
+{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 10px;
+    width: 345px;
+    text-align: center;
+    color: black;
+    background-color: rgba(128, 128, 128, 0.671);
+}
+.anchr:hover
+{
+    background-color: rgb(128, 128, 128);
+}
+#foot
+{
+    display: flex;
+    height: 150px;
+    background-color: black;
+    /* position: relative;
+    bottom: 25px; */
+}
+.footd
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 50%;
+    border: 1px dotted white;
+    color: blanchedalmond;
+}
+#social > a
+{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+#social > a:hover
+{
+    color: blue;
+    
+    transform: scale(1.5);
+}

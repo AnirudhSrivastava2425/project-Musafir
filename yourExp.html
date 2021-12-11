@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musafir.com</title>
+    <link rel="stylesheet" href="frontpage.css">
+</head>
+<script src="frontpage.js"></script>
+<body>
+    <div id="main">
+
+        <div id="head">
+            <strong id="name">Musafir.com</strong>
+        </div>
+
+        <div id="nav">
+            <ul>
+                <li> <button id="btn1" onclick="cls()" >=</button> </li>
+                <div id="menubar">
+                    
+                        <li>
+                            <a href="#">BOOK HOTELS</a>   
+                        </li>
+                        <li>
+                            <a href="#">COVID TEST SUPPORT</a>   
+                        </li>
+                        <li>
+                            <a href="#">CASHBACK VOUCHERS</a>   
+                        </li>
+                        <LI>
+                            <a href="#">GAMES AND PRIZES</a>   
+                        </LI>
+                        <LI>
+                            <a href="#">CAMPING AND ADVENTURE</a>   
+                        </LI>
+                        <LI>
+                            <a href="#">TRAVEL ARRANGMENTS</a>   
+                        </LI>
+                    
+                </div>
+                <li><a href="frontpage.html">Home</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="contactus.html">Contact us</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Sign In</a></li>
+                
+
+            </ul>
+            <form action="">
+                <input type="search" name="searchbox" id="searchbox" placeholder="Search">
+                <input  type="submit" value="Submit">
+            </form>
+        </div>
+        <div id="objects1">
+            <div id="search">
+                <form id="formitems" action="notdecided.php" method="get">
+                    <br>
+                    <label for="searchcity">City Name :-</label>
+                    <input type="search" name="searchcity" id="searchcity" class="formitems1" placeholder="Eg:- Dehradoon">
+                    <br><br>
+                    <label for="noofdays">Number of days  you stayed :-</label>
+                    <input type="number" name="noofdays" class="formitems1" placeholder="Eg:- 3 days" id="noofdays">
+                    <br><br>
+                    <label for="hotelname">Place where you stayed/dinned :-</label>
+                    <input type="text" name="hotelname" id="hotelname" placeholder="Eg:- Deep Residency" class="formitems1">
+                    <br><br>
+                    <label for="experience">Your thoughts :-</label>
+                    <textarea class="formitems1" placeholder="Eg:- review on food and good restaurant, places to visit, best attractions in the city, Things not to do etc." name="experience" id="experience" cols="50" rows="10"></textarea>
+                    <br><br>
+                    
+                    <input id="btnsubmit" type="submit" value=" SUBMIT ">
+                    <br>
+                </form>
+            </div>
+        </div>
+        <div id="foot">
+            <div id="social" class="footd">
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+            </div>
+            <div id="details" class="footd">
+                Copyrigt@Musafir.com
+                <br>
+                created for the knowledge purpose only.
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
